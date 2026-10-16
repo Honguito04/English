@@ -18,6 +18,7 @@ The website is static and can also be hosted on GitHub Pages or any static hosti
 - `index.html`: English content and accessible page structure.
 - `styles.css`: responsive pink, cream, burgundy, and blue design.
 - `script.js`: flavor detail dialogs with keyboard support.
+- `assets/website-qr.svg`: scannable QR code in the home section linking to `https://honguito04.github.io/English/`. It is bundled locally and needs no QR service or runtime dependency. Regenerate the code and update both links in `.hero-qr` if the public website address changes.
 - `assets/`: editable SVG illustrations and an AI-generated product image based on the brochure supplied in chat. These are visual interpretations, not extracted original logo or product photographs. Replace with original brand assets when available; update alt text as needed.
 
 Typography is bundled locally from @fontsource/dm-sans 5.3.0 and @fontsource/dm-serif-display 5.3.0 (SIL Open Font License; licenses in assets/fonts). The site makes no external requests.

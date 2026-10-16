@@ -12,3 +12,49 @@
 @media(max-width:1000px){.hero-cups{height:310px;border-radius:120px 120px 20px 20px}}
 @media(max-width:700px){.hero-cups{height:315px;width:100%;max-width:100%;border-radius:120px 120px 20px 20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+
+.hero-qr {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  max-width: 425px;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+.qr-image-link {
+  flex: 0 0 132px;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+}
+.qr-image-link img {
+  width: 132px;
+  height: 132px;
+}
+.qr-copy p {
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 1.65;
+}
+.qr-copy .qr-title {
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.qr-website-link {
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.qr-link-arrow {
+  display: inline-block;
+  vertical-align: middle;
+}
+@media (max-width: 380px) {
+  .hero-qr { gap: 12px; }
+}
